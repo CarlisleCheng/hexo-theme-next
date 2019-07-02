@@ -165,7 +165,7 @@ menu:
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
   about: /about/ || user
-  GitHub: https://github.com/CarlisleCheng || github-square
+  #GitHub: https://github.com/CarlisleCheng || github-square
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
