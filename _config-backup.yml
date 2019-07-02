@@ -45,11 +45,11 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as blank to use site's feed link, and install dependencies hexo-generator-feed by `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  since: 2019
+  #since: 2015
 
   # Icon between year and copyright info.
   icon:
@@ -160,7 +160,7 @@ menu:
   home: / || home
   #about: /about/ || user
   #tags: /tags/ || tags
-  categories: /categories/ || th
+  #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -177,10 +177,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -227,9 +227,9 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: /uploads/my_avatar.jpg #/images/avatar.gif
+  url: #/images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
-  rounded: true
+  rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
   # If true, the avatar would be rotated with the cursor.
@@ -639,7 +639,7 @@ valine:
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
-  language: zh-CN # language, available values: en, zh-cn
+  language: # language, available values: en, zh-cn
   visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
   comment_count: true # if false, comment count will only be displayed in post page, not in home page
 
