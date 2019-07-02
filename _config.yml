@@ -35,8 +35,8 @@ cache:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/book-dead-solid.svg
-  medium: /images/book-dead-solid.svg
+  small: /images/favicon-16x16-c.ico
+  medium: /images/favicon-32x32-c.ico
   apple_touch_icon: /images/favicon-32x32-c.ico
   safari_pinned_tab: /images/favicon-32x32-c.ico
   #android_manifest: /images/manifest.json
