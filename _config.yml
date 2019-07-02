@@ -165,7 +165,7 @@ menu:
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
   about: /about/ || user
-  GitHub: https://github.com/CarlisleCheng || github-square
+  #GitHub: https://github.com/CarlisleCheng || github-square
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -198,7 +198,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink.
 # Value after `||` delimiter is the name of FontAwesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
+  GitHub: https://github.com/CarlisleCheng || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
