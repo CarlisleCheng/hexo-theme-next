@@ -230,7 +230,7 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: /uploads/my_avatar.jpg #/images/avatar.gif
+  url: /images/my_avatar.jpg #/images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -303,7 +303,7 @@ text_align:
   mobile: justify
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically saving scroll position on each post / page in cookies.
 save_scroll: false
