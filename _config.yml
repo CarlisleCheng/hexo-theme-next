@@ -160,7 +160,7 @@ menu:
   home: / || home
   #tags: /tags/ || tags
   categories: /categories/ || th
-  C++: /categories/C/ || atom
+  C++: /categories/C/ || cube
   LeetCode: /categories/LeetCode/ || cube
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
