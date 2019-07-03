@@ -159,7 +159,7 @@ baidu_push: false
 menu:
   home: / || home
   #tags: /tags/ || tags
-  categories: /categories/ || th
+  categories: /categories/ || th-large
   C++: /categories/C/ || cube
   LeetCode: /categories/LeetCode/ || cube
   archives: /archives/ || archive
@@ -309,7 +309,7 @@ scroll_to_more: true
 save_scroll: false
 
 # Automatically excerpt description in homepage as preamble text.
-excerpt_description: true
+excerpt_description: false
 
 # Automatically Excerpt (Not recommend).
 # Use <!-- more --> in the post to control excerpt accurately.
